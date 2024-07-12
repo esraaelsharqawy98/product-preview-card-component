@@ -1,0 +1,19 @@
+main{
+    width: 100%;
+    max-width: 600px;
+    min-height: 400px;
+    overflow: hidden;
+    border-radius: .5rem;
+    display: flex;
+    align-items: center;
+    background: var(--White);
+    margin: 1rem;
+}
+main > section{
+    flex: 1 1 300px;
+}
+@media (max-width: 637px) {
+    main{
+        flex-direction: column;
+    }
+}

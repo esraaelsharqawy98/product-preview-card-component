@@ -1,0 +1,61 @@
+#ProductDetailsContainer{
+    display: flex;
+    flex-direction: column;
+    gap:1.5rem;
+    padding: 2rem;
+}
+#ProductCategory{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: var(--Dark-grayish-blue);
+}
+#ProductTitle{
+    line-height: 1;
+    font-size: 2rem;
+    font-family: var(--ff-accent);
+    color: var(--very-Dark-cyan);
+}
+#ProductDescription{
+    color: var(--Dark-grayish-blue);
+}
+#PriceContainer{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#ProductOriginalPrice{
+    font-size: 0.875rem;
+    color: var(--Dark-grayish-blue);
+}
+#ProductPrice{
+    font-family: var(--ff-accent);
+    font-size: 2rem;
+    color: var(--Dark-cyan);
+}
+#ProductButton{
+    padding: 1.25em 1.5em;
+    background-color: var(--Dark-cyan);
+    color: var(--White);
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 0.9rem;
+    font-weight: var(--fw-bold);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap:0.5rem;
+    cursor: pointer;
+}
+#ProductButton:hover , #ProductButton:focus{
+   background-color: var(--very-Dark-cyan);
+}
+#CartIcon{
+    width: 15px;
+    height: 16px;
+}
+@media (max-width: 637px) {
+    #ProductDetailsContainer{
+        padding: 1.5rem;
+    }
+}
