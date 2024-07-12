@@ -16,7 +16,7 @@ Users should be able to:
 - See hover and focus states for interactive elements
 
 ### Demo
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://product-preview-card-component-nine-inky.vercel.app/)
 
 
 ### Built with
